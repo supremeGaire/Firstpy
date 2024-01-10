@@ -27,8 +27,16 @@ def div():
     num1, num2 = take_input()
     return (num1 / num2)
 
-
-
+def menu():
+    print("""
+        Welcome to our Calculator:
+        Please Choose one of the options below.
+        1. Add Two numbers
+        2. Subtract Two numbers
+        3. Multiply Two numbers
+        4. Divide Two numbers 
+        5. Exit
+""")
 
 print("""
         Welcome to our Calculator:
@@ -59,7 +67,7 @@ elif choice == 5:
     exit()
 
 else:
-    print("Choose from 1 to 4")
+    menu()
 
 
 
